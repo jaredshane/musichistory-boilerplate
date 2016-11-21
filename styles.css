@@ -24,3 +24,68 @@ nav li {
 nav li:nth-child(1), nav li:nth-child(2) {
 	border-right: .15em solid black;
 }
+
+/********** 
+Song Options
+**********/
+
+.songOptions {
+	background-color: #4DD7FA;
+	border: 2px solid black;
+	width: 25%;
+	padding: 10px;
+	margin-top: 1em;
+
+}
+
+.musicArtistWrap, .albumWrap, .genreWrap {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+.select-button {
+	display: block;
+	margin-top: .6em;
+	width: 90%;
+	height: 2em;
+	font-size: .8em;
+}
+
+
+input[type="range"] {
+	margin-top: .8em;
+}
+
+
+.genreWrap {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.genre {
+	width: 100%%;
+	justify-content: center;
+	margin-right: 100px;
+	margin-bottom: .6em;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.genreInput {
+	list-style: none;
+	width: 50%; 
+	padding-top: .5em;
+}
+
+.button-wrap input {
+	margin-left: 25%;
+	width: 50%;
+
+}
