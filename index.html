@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+
+  <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
@@ -19,12 +21,12 @@
 	<div class="songOptions">
 		<div class="songLengthWrap">
 			<span class="songLength">Song Length:</span>
-			<input type="range" />
+			<input type="range">
 		</div>
 
 		<div class="musicArtistWrap"
 			<span class="artist">Artist:</span>
-			<select>
+			<select class="select-button">
 				<option value="musicartist">Sufjan Stevens</option>
 				<option value="musicartist">M83</option>
 				<option value="musicartist">Aoife O'Donovan</option>
@@ -35,7 +37,7 @@
 
 		<div class="albumWrap"
 			<span class="album">Album:</span>
-			<select>
+			<select class="select-button">
 				<option value="albumName">Carrie & Lowell</option>
 				<option value="albumName">Junk</option>
 				<option value="albumName">Fossils</option>
@@ -46,14 +48,19 @@
 
 		<div class="genreWrap">
 			<span class="genre">Genre:</span>
-			<input type="checkbox">Rock
-			<input type="checkbox">Classical
-			<input type="checkbox">Pop
-			<input type="checkbox">Singer/Songwriter
-			<input type="checkbox">Bluegrass
-			<input type="checkbox">Hip Hop
+				<ul>
+				<li class="genreInput"><input type="checkbox">Rock</li>
+				<li class="genreInput"><input type="checkbox">Classical</li>
+				<li class="genreInput"><input type="checkbox">Pop</li>
+				<li class="genreInput"><input type="checkbox">Jazz</li>
+				<li class="genreInput"><input type="checkbox">Bluegrass</li>
+				<li class="genreInput"><input type="checkbox">Hip Hop</li>
+				</ul>
 
-		<input type="submit" value="Filter">
+		</div>
+		<div class="button-wrap">
+			<input class="button" type="submit" value="Filter">
+		</div>
 
 	</div>
 
@@ -81,7 +88,7 @@
 			<span>Tame Impala</span>
 			<span>Currents</span>
 			<span>Rock</span>
-		</div>
+		</div>	
 
 	</div>
 
