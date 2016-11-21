@@ -2,6 +2,10 @@
 	font-family: Arial;
 }
 
+.length-song-wrap {
+	display: flex;
+}
+
 /********** 
 Nav Styles
 **********/
@@ -12,7 +16,7 @@ nav {
 	display: flex;
 	border: 2px solid black;
 	padding: 1em;
-	width: 100%;
+	width: 95%;
 }
 
 nav li {
@@ -87,5 +91,47 @@ ul {
 .button-wrap input {
 	margin-left: 25%;
 	width: 50%;
+	margin-top: 1em;
 
+}
+
+/********** 
+Song List
+**********/
+
+.songWrapper {
+	background-color: #FEFAC0;
+	width: 70%;
+	border: 2px solid black;
+	margin-left: 1em;
+	margin-top: 1em;
+	padding-bottom: 2em;
+}
+
+.songName {
+	color: #785616
+}
+
+.song-info {
+	margin-left: 1.5em;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+.song-info span:nth-child(3) {
+	border-left: .12em solid black;
+	border-right: .12em solid black;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.song-info span:nth-child(4){
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.song-info span:nth-child(2) {
+	padding-right: 15px;
 }
