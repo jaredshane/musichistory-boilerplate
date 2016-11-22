@@ -16,7 +16,7 @@ nav {
 	display: flex;
 	border: 2px solid black;
 	padding: 1em;
-	width: 95%;
+	width: 97%;
 }
 
 nav li {
@@ -101,9 +101,9 @@ Song List
 
 .songWrapper {
 	background-color: #FEFAC0;
-	width: 70%;
+	width: 72%;
 	border: 2px solid black;
-	margin-left: 1em;
+	margin-left: 1%;
 	margin-top: 1em;
 	padding-bottom: 2em;
 }
